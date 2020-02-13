@@ -1,0 +1,266 @@
+
+body {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  margin: auto;
+  text-decoration-color: #140303;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+header .logo{
+  padding-top: 1.2rem;
+}
+
+footer {
+  width: 100%;
+  margin: auto;
+  background: #FF9C51;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-top: 1rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+footer p{
+  color: white;
+}
+
+.contacts{
+  width: 80%;
+}
+
+.element {
+  width: 60%;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.element img{
+  width: inherit;
+}
+
+.element2 {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.product_listing{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+}
+
+.card img{
+  width: 35%;
+}
+
+.images {
+  height: 30%;
+  width: 40%;
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.images img{
+  width: 100%;
+}
+
+
+#payment{
+  background: #EFEFEF;
+  margin: auto;
+  padding: 1rem;
+}
+
+#pay_type{
+  padding-right: 1rem;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-top: 0.25rem;
+}
+
+ul {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-top: 0.25rem;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a: active, a: hover, a: focus{
+  color: #FF9C51;
+}
+
+nav {
+  align-content: flex-end;
+  padding-bottom: 2rem;
+  background-color: #FFF;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  /* drop shadow effect code Reference
+  https://www.cssmatic.com/box-shadow
+  */
+}
+
+nav img {
+  align-self: flex-start;
+  padding-left: 3rem;
+  padding-right: 12rem;
+  width: 10%;
+}
+
+nav a {
+  padding-right: 2rem;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  color: #140303;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+  color: #FF9C51;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+/* Styling for buttons */
+.button-nav {
+  display: inline-block;
+  padding: 0.5rem;
+  color: #140303;
+  background-color: #EFEFEF;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #FF9C51;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.button-submit {
+  display: inline-block;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  color: #140303;
+  background-color: #FFC131;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.button-submit:hover, .button-submit:focus {
+  background-color: #FF9C51;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.button-reset {
+  display: inline-block;
+  padding: 0.5rem;
+  color: #140303;
+  background-color: #EFEFEF;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.button-reset:hover, .button-reset:focus {
+  background-color: #C5C5C5;
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
