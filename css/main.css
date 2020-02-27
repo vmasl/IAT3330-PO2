@@ -206,8 +206,12 @@ footer p{
 }
 
 .banner{
-  width: 150%;
+  width: 100%;
   align-items: center;
+}
+
+.banner img{
+  width: 100%;
 }
 
 #payment{
