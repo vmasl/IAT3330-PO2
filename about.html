@@ -18,11 +18,42 @@
       </nav>
     </header>
 
-    <section id=element>
-      <h2>Leave a review</h2>
-      <p>First</p>
-      <input type="text" id="card_number"> <br>
+    <section class="element">
+      <h2>About the company</h2>
+      <h4>What does the company do / offer?</h4>
+      <p>Defy+ is an athletic clothing and equipment retailer, as well
+      as a guide to get you started on your fitness journey in style.
+      Here you can also find information about different
+      <a href="https://www.yelp.ca/search?cflt=gyms&find_loc=Vancouver%2C+BC">gyms</a>
+      and programs offered in the Vancouver area. </p>
+
+      <h2>Contact Us</h2>
+      <h4>Email: </h4>
+      <p>defyplus@email.com</p>
     </section>
+
+
+    <section class="element">
+        <div>
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+      </section>
 
   </body>
 </html>
