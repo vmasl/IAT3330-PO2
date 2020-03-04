@@ -20,6 +20,7 @@ header .logo{
 header .checkout{
   width: 2.5%;
   height: 3%;
+  align-items: center;
 }
 
 
@@ -232,6 +233,7 @@ footer p{
 h1 {
   font-weight: 800;
   font-size: 3rem;
+  text-align: center;
 }
 
 h2 {
