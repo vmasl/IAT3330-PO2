@@ -142,10 +142,11 @@ footer p{
 }
 
 .element {
-  width: 60%;
+  width: 100%;
   border-top-width: 0.15rem;
   border-top-style: solid;
   border-top-color: black;
+  padding: 2rem;
 }
 
 .element img{
@@ -174,6 +175,8 @@ footer p{
   border: 1px solid lightgrey;
   border-radius: 3px;
   display: flex;
+  padding: 2rem;
+  text-align: center;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap
