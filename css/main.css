@@ -362,9 +362,6 @@ code {
 
 /* LEAVE A FORM  */
 
-* {
-  box-sizing: border-box;
-}
 
 input[type=text], select, textarea {
   width: 100%;
