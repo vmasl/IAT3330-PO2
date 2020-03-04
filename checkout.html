@@ -5,17 +5,58 @@
     <title>Checkout Page</title>
     <link href="css/main.css" rel="stylesheet">
   </head>
+  <header>
+    <nav class="navigation-bar">
+      <a href="index.html"> <img class="logo" src="media/logo.png" alt="Defy Plus company logo"> </a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="Contact.html">Contact</a>
+      <a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
 
   <body>
-    <header>
-      <nav class="navigation-bar">
-        <a href="index.html"> <img class="logo" src="media/logo.png" alt="Defy Plus company logo"> </a>
-        <a href="style_guide.html">Style Guide</a>
-        <a href="products.html">Products</a>
-        <a href="checkout.html">Checkout</a>
-        <a href="index.html#citations">Citations</a>
-        <a href="about.html">About</a>
-      </nav>
-    </header>
+
+
+    <section class="element" id="checkout">
+
+        <h3>Checkout</h3>
+        <div class="row">
+          <div class="col-25">
+            <div class="checkoutcontainer">
+              <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
+              <img src="media/sneaker_4.jpg" style="width:15%" class="image">
+              <p><a href="#product1">Puma Mid Defy Black Sneaker</a> <span class="price">$179.99</span></p>
+              <hr>
+              <p>Total <span class="price" style="color:black"><b>$179.99</b></span></p>
+            </div>
+          </div>
+        </div>
+
+      <div id="payment">
+        <label for="selection_1">Credit</label>
+        <input type="radio" id="pay_type" name="selection_1" value="1">
+
+        <label for="selection_2" style="padding-left: 1rem;">Debit</label>
+        <input type="radio" id="pay_type" name="selection_2" value="1">
+
+        <label for="selection_3" style="padding-left: 1rem;">PayPal</label>
+        <input type="radio" id="pay_type" name="selection_3" value="1"> <br><br>
+
+        <p>Card number</p>
+        <input type="text" id="card_number"> <br>
+
+        <p>Name on the card</p>
+        <input type="text" id="card_name"> <br>
+
+        <p>Billing address</p>
+        <input type="text" id="card_address"> <br><br>
+
+        <a class="button-submit">Check out</a>
+      </div>
+    <br>
+
+    </section>
+
   </body>
 </html>
