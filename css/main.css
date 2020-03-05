@@ -144,7 +144,7 @@ footer p{
 .element {
   width: 100%;
   border-top-width: 0.15rem;
-  border-top-style: solid;
+  border-top-style: none;
   border-top-color: black;
   padding: 2rem;
 }
