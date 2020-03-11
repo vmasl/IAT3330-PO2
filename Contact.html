@@ -7,15 +7,20 @@
   </head>
 
 
-    <header>
-      <nav class="navigation-bar">
-        <a href="index.html"> <img class="logo" src="media/logo.png" alt="Defy Plus company logo"> </a>
-        <a href="about.html">About</a>
-        <a href="products.html">Products</a>
-        <a href="Contact.html">Contact</a>
-        <a href="checkout.html"><img class="checkout" src="media/checkout.png" alt="checkout icon"> </a>
-      </nav>
-    </header>
+  <header>
+    <div class="topnav" id="myTopnav">
+    <!-- <nav class="navigation-bar"> -->
+      <a href="index.html"> <img class="logo" src="media/logo.png" alt="Defy Plus company logo" width="25%"> </a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="Contact.html">Contact</a>
+      <a href="checkout.html"><img class="cart"src="media/checkout.png" alt="checkout icon" width="25%"> </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+       </a>
+     </div>
+    <!-- </nav> -->
+  </header>
 
     <body>
 
@@ -27,13 +32,13 @@
         <p>+1 (604) 123 4567</p>
 
 </section>
-        <section class="element">
 
+  <section class="element">
     <div class="container">
       <form action="/action_page.php">
         <div class="row">
           <div class="col-25">
-            <label for="fname">First Name</label>
+            <label for="fname">Name</label>
           </div>
           <div class="col-75">
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -41,7 +46,7 @@
         </div>
         <div class="row">
           <div class="col-25">
-            <label for="lname">Last Name</label>
+            <label for="lname">Email</label>
           </div>
           <div class="col-75">
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">

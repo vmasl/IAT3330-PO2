@@ -134,7 +134,16 @@ footer p{
 }
 
 .contacts{
-  width: 80%;
+  width: 100%;
+}
+
+.contacts a{
+  color: white;
+}
+
+.contacts a:hover, nav a:focus {
+  text-decoration: none;
+  color: black;
 }
 
 .element {
@@ -147,7 +156,6 @@ footer p{
 
 .element img{
   width: 100%;
-
 }
 
 .element2 {
@@ -169,11 +177,11 @@ footer p{
 .container {
   background-color: white;
   padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
+  border: 1px solid #FF9C51;
   border-radius: 3px;
   display: flex;
   padding: 2rem;
-  text-align: center;
+  align-items: center;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap
@@ -418,7 +426,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #FF9C51;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -428,12 +436,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: grey;
 }
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: lightgrey;
   padding: 20px;
 }
 
@@ -463,9 +471,20 @@ input[type=submit]:hover {
     margin-top: 0;
   }
   .col-25 {
-    margin-bottom: 20px;
+    /* margin-bottom: 50px; */
+    margin:auto;
     width:70%;
+    align-items: center;
+    display: flex;
+
   }
+  .col-75 {
+    margin:auto;
+    width:70%;
+    align-items: center;
+  }
+
+
 }
 
 /* ////////////////////////////////// */
@@ -533,6 +552,68 @@ h1 {
   border-width: 0 1px 0 0;
   overscroll-behavior: contain;
 }
+
+/* /////////// NAV /////////////// */
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FF9C51;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FF9C51;
+  color: black;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    width: 30%;
+    text-align: left;
+  }
+}
+
+/* /////////// END OF NAV /////////////// */
+
 
 .headers {
   top: var(--sticky-height);
