@@ -571,8 +571,8 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: #FF9C51;
-  color: black;
+  background-color: #ffcca5;
+  color: white;
 }
 
 .topnav a.active {
