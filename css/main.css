@@ -130,6 +130,7 @@ footer {
 
 footer p{
   color: white;
+  size: 50px;
 }
 
 .contacts{
@@ -145,7 +146,8 @@ footer p{
 }
 
 .element img{
-  width: inherit;
+  width: 100%;
+
 }
 
 .element2 {
