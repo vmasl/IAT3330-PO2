@@ -6,34 +6,35 @@
     <link href="css/main.css" rel="stylesheet">
   </head>
 
-
-    <header>
-      <nav class="navigation-bar">
-        <a href="index.html"> <img class="logo" src="media/logo.png" alt="Defy Plus company logo"> </a>
-        <a href="about.html">About</a>
-        <a href="products.html">Products</a>
-        <a href="Contact.html">Contact</a>
-        <a href="checkout.html"><img class="checkout" src="media/checkout.png" alt="checkout icon"> </a>
-      </nav>
-    </header>
-
     <body>
-
+      <header>
+        <div class="topnav" id="myTopnav">
+          <a href="index.html"> <img class="active" src="media/logo.png" alt="Defy Plus company logo" width="25%"> </a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="Contact.html">Contact</a>
+          <a href="checkout.html"><img class="cart"src="media/checkout.png" alt="checkout icon" width="25%"> </a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+             <img class="active" src="media/icon.png" alt="Defy Plus company logo" width="8%">
+           </a>
+         </div>
+      </header>
+      
         <section class="element">
         <h1>Contact Us</h1>
         <h4>Email: </h4>
         <p>defyplus@email.com</p>
         <h4>Phone: </h4>
         <p>+1 (604) 123 4567</p>
-        
-</section>
-        <section class="element">
 
+</section>
+
+  <section class="element">
     <div class="container">
       <form action="/action_page.php">
         <div class="row">
           <div class="col-25">
-            <label for="fname">First Name</label>
+            <label for="fname">Name</label>
           </div>
           <div class="col-75">
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -41,7 +42,7 @@
         </div>
         <div class="row">
           <div class="col-25">
-            <label for="lname">Last Name</label>
+            <label for="lname">Email</label>
           </div>
           <div class="col-75">
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -78,6 +79,10 @@
   </body>
 
   <footer>
-    <p class="contacts">Phone: +1(604) 123 4567 <br> Email:	vmaslova@sfu.ca or zdaokroe@sfu.ca</p>
+    <p class="contacts">Phone: +1(604) 123 4567 </p> <br>
+    <p class="contacts"> Email: defyplus@email.com</p>
+    <p class="contacts"> <a href="citations.html">Citations</a></p>
+    <p class="contacts"> <a href="http://www.sfu.ca/~zdaokroe/public_HTML/IAT339/IAT339-PO2/style_guide.html">Style Guide</a></p>
+    <p class="contacts"> <a href="https://github.com/vmasl/IAT339-PO2">Github Page</a></p>
   </footer>
 </html>
