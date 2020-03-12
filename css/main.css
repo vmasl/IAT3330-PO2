@@ -115,30 +115,37 @@ span.price {
 
 footer {
   width: 100%;
-  margin: auto;
-  background: #FF9C51;
+  margin: none;
+  background: white;
   box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
-  padding: 1rem;
+  padding: 1.5rem;
   margin-top: 1rem;
 
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  align-content: center;
+  text-align:center;
 }
 
 footer p{
-  color: white;
-  size: 50px;
+  color: #FF9C51;
+  text-decoration-color: #FF9C51;
 }
 
 .contacts{
   width: 100%;
+  align-items: center;
+}
+
+.contacts p{
+  padding: 1.5rem;
+  color: #FF9C51;
 }
 
 .contacts a{
-  color: white;
+  padding: 1.5rem;
+  color: #FF9C51;
+  font-size: .8rem;
 }
 
 .contacts a:hover, nav a:focus {
