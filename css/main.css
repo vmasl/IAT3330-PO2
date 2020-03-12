@@ -311,6 +311,11 @@ nav img {
   width: 10%;
 }
 
+.topnav #cartLink{
+  float: right;
+  padding-right: 0;
+}
+
 nav a {
   padding-right: 2rem;
   font-family: Roboto, sans-serif;
@@ -454,6 +459,17 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: grey;
+}
+
+form input{
+  padding: 1rem;
+  border: 10px;
+  color: grey;
+  border-color: lightgrey;
+}
+
+form input:checked{
+  border-color: black;
 }
 
 .container {
